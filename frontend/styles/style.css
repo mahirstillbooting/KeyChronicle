@@ -1,43 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Geist:wght@400;500;700&family=Geist+Mono:wght@400;500;700&family=Geist+Pixel&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-:root {
-
-    --bg-primary: #111111;
-    --bg-secondary: #1d1d1d;
-    --bg-surface: #222222;
-
-    --text-primary: #f5f4f4;
-    --text-secondary: #b5b5b5;
-
-    --accent-red: #cb4176;
-    --accent-orange: #d97b2d;
-
-    --border-color: #333333;
-
-    --transition-fast: 0.2s ease;
-
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-body {
-
-    background: var(--bg-primary);
-    color: var(--text-primary);
-
-    font-family: "Geist", sans-serif;
-
-    line-height: 1.7;
-
-}
+@import url("./base/reset.css");
+@import url("./base/variables.css");
+@import url("./base/typography.css");
+@import url("./layout/header.css");
+@import url("./layout/navbar.css");
 
 ::selection {
     background: var(--accent-red);
