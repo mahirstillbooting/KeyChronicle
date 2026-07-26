@@ -1,0 +1,40 @@
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0.85rem 1.5rem;
+
+    border: 1px solid var(--border-color);
+
+    font-family: var(--font-heading);
+    font-size: 0.9rem;
+
+    cursor: pointer;
+
+    transition: background-color var(--transition-fast),
+        color var(--transition-fast),
+        transform var(--transition-fast);
+}
+
+.btn-primary {
+    background-color: var(--accent-orange);
+    color: var(--bg-primary);
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: var(--text-primary);
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+.btn-primary:hover {
+    background-color: var(--accent-red);
+}
+
+.btn-secondary:hover {
+    background-color: var(--bg-secondary);
+}
